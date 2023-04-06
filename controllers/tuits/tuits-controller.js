@@ -7,7 +7,7 @@ const createTuit = async (req, res) => {
     newTuit.replies = 0;
     newTuit.retuits = 0;
     newTuit.handle = "@nasa";
-    newTuit.userName = "NASAforSPace";
+    newTuit.userName = "NASA_for_space";
     newTuit.time = "1m";
     newTuit.image = "nasa.webp"
     const insertedTuit = await tuitsDao
