@@ -5,8 +5,8 @@ import mongoose from "mongoose";
 //mongoose.connect('mongodb+srv://giuseppa:supersecretpassword@cluster0.qnnk0ix.mongodb.net/?retryWrites=true&w=majority');
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
     || 'mongodb://127.0.0.1:27017/tuiter';
-mongoose.connect('mongodb://127.0.0.1:27017/tuiter');
-//mongoose.connect(CONNECTION_STRING);
+//mongoose.connect('mongodb://127.0.0.1:27017/tuiter');
+mongoose.connect(CONNECTION_STRING);
 
 
 
