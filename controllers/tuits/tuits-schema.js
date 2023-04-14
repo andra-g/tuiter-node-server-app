@@ -10,5 +10,6 @@ const schema = mongoose.Schema({
     time: String,
     image: String,
 }, {collection: 'tuits'});
+// to deploy
 export default schema;
 
